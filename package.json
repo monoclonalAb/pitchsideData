@@ -1,0 +1,19 @@
+{
+  "name": "pitchside-data-kickoff-verifier",
+  "version": "0.1.0",
+  "description": "Advisory kickoff-time verification tool for the Pitchside Data fixture feed — gathers evidence per fixture, weighs it deterministically, and recommends an action with auditable reasoning.",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "luxon": "^3.5.0",
+    "openai": "^4.104.0"
+  }
+}
