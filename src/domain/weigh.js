@@ -223,7 +223,9 @@ export function weighFixture(fixture, evidenceWithClaims, { now = Date.now() } =
           "fresh official postponement; reschedules re-enter via league resequencing",
           ...postponements.map((s) => `${s.label}: "${s.quote}"`),
         ],
-        sourcesUsed: postponements.map(sourceLine),
+        // Hard stop: receipts are the verbatim quotes ONLY. Null the normalized
+        // time so no copyable kickoff for a postponed fixture appears anywhere.
+        sourcesUsed: postponements.map((s) => ({ ...sourceLine(s), utc: null })),
         dropped,
       });
     }
