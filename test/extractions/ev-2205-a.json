@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2205-a",
+  "fixture_id": "fx-2205",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "18:00",
+      "tz_hint": "NONE",
+      "tz_hint_verbatim": null,
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "this Saturday",
+        "explicit_iso_date": "2026-06-27",
+        "weekday": "SAT"
+      },
+      "is_change": false,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Harbour City FC",
+      "venue_or_city_mentioned": "Crown Field",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "6:00 PM kickoff",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

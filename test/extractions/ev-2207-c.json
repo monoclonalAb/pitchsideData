@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2207-c",
+  "fixture_id": "fx-2207",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": false,
+      "claimed_local_time": "18:00",
+      "tz_hint": "NONE",
+      "tz_hint_verbatim": null,
+      "date_reference": {
+        "kind": "NONE",
+        "verbatim": null,
+        "explicit_iso_date": null,
+        "weekday": null
+      },
+      "is_change": true,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Fogline SC",
+      "venue_or_city_mentioned": null,
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "moves to 6:00 PM",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

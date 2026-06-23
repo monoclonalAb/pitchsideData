@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2203-b",
+  "fixture_id": "fx-2203",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": false,
+      "claimed_local_time": "19:00",
+      "tz_hint": "MT",
+      "tz_hint_verbatim": "MT",
+      "date_reference": {
+        "kind": "EXPLICIT_DATE",
+        "verbatim": "Wednesday 8 July",
+        "explicit_iso_date": "2026-07-08",
+        "weekday": "WED"
+      },
+      "is_change": true,
+      "is_postponement": true,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Lakefront SC",
+      "venue_or_city_mentioned": "Albuquerque",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "The fixture will be replayed Wednesday 8 July at 7:00 PM MT.",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

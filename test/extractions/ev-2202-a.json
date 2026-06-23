@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2202-a",
+  "fixture_id": "fx-2202",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "19:00",
+      "tz_hint": "EXPLICIT_CITY",
+      "tz_hint_verbatim": "Denver",
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "this Saturday",
+        "explicit_iso_date": "2026-06-13",
+        "weekday": "SAT"
+      },
+      "is_change": false,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Pacific Crown",
+      "venue_or_city_mentioned": "Summit Park",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "Kickoff 7:00 PM this Saturday at Summit Park.",
+      "extraction_confidence": 1
+    }
+  ]
+}

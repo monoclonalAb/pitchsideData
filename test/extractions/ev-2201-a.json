@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2201-a",
+  "fixture_id": "fx-2201",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "18:00",
+      "tz_hint": "ET",
+      "tz_hint_verbatim": "ET",
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "Saturday",
+        "explicit_iso_date": null,
+        "weekday": "SAT"
+      },
+      "is_change": true,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Red Vale United",
+      "venue_or_city_mentioned": "New York",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "now kicks off at 6:00 PM ET",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

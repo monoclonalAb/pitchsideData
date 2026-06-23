@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2209-a",
+  "fixture_id": "fx-2209",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "19:00",
+      "tz_hint": "NONE",
+      "tz_hint_verbatim": null,
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "Tuesday",
+        "explicit_iso_date": null,
+        "weekday": "TUE"
+      },
+      "is_change": true,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Summit Rovers",
+      "venue_or_city_mentioned": "Phoenix",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "Kickoff vs Summit Rovers is now 7:00 PM.",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

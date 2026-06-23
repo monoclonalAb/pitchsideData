@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2201-c",
+  "fixture_id": "fx-2201",
+  "type": "web_page",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "18:00",
+      "tz_hint": "ET",
+      "tz_hint_verbatim": "ET",
+      "date_reference": {
+        "kind": "EXPLICIT_DATE",
+        "verbatim": "Saturday June 20",
+        "explicit_iso_date": "2026-06-20",
+        "weekday": "SAT"
+      },
+      "is_change": false,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Red Vale United",
+      "venue_or_city_mentioned": "Beacon Yard Stadium, New York",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "Kickoff 6:00 PM ET.",
+      "extraction_confidence": 1
+    }
+  ]
+}

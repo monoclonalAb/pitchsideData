@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2204-a",
+  "fixture_id": "fx-2204",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "17:00",
+      "tz_hint": "CT",
+      "tz_hint_verbatim": "CT",
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "next Tuesday",
+        "explicit_iso_date": "2026-06-23",
+        "weekday": "TUE"
+      },
+      "is_change": false,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Fogline SC",
+      "venue_or_city_mentioned": "Kansas City",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "next Tuesday's home fixture against Fogline SC kicks off 5:00 PM CT",
+      "extraction_confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2206-a",
+  "fixture_id": "fx-2206",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": false,
+      "claimed_local_time": "20:00",
+      "tz_hint": "NONE",
+      "tz_hint_verbatim": null,
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "thursday",
+        "explicit_iso_date": null,
+        "weekday": "THU"
+      },
+      "is_change": true,
+      "is_postponement": false,
+      "is_rumor_or_tentative": true,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Summit Rovers",
+      "venue_or_city_mentioned": "Chicago",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "thursday's game might get pushed to 8pm???",
+      "extraction_confidence": 0.7
+    }
+  ]
+}

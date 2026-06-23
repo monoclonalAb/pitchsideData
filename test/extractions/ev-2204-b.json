@@ -1,0 +1,31 @@
+{
+  "evidence_id": "ev-2204-b",
+  "fixture_id": "fx-2204",
+  "type": "social_post",
+  "usable": true,
+  "model": "gpt-4o-mini-2024-07-18",
+  "claims": [
+    {
+      "mentions_kickoff": true,
+      "claimed_local_time": "19:30",
+      "tz_hint": "CT",
+      "tz_hint_verbatim": "CT",
+      "date_reference": {
+        "kind": "RELATIVE_WEEKDAY",
+        "verbatim": "Tuesday",
+        "explicit_iso_date": null,
+        "weekday": "TUE"
+      },
+      "is_change": true,
+      "is_postponement": false,
+      "is_rumor_or_tentative": false,
+      "is_tbc": false,
+      "is_broadcast_pick": false,
+      "opponent_mentioned": "Fogline SC",
+      "venue_or_city_mentioned": "Kansas City",
+      "home_away_context": "SELF_HOME",
+      "verbatim_quote": "Tuesday's match vs Fogline SC will now kick off at 7:30 PM CT.",
+      "extraction_confidence": 0.9
+    }
+  ]
+}
