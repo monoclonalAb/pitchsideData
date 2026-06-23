@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "test": "node --test"
+    "test": "node --test",
+    "capture": "node scripts/capture.js"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
