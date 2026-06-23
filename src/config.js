@@ -113,7 +113,7 @@ export function tierRank(tier, { isBroadcastPick = false } = {}) {
 // ---------------------------------------------------------------------------
 export const RECENCY_CLARITY = 1; // winning claim definitive AND (move-signal OR uncontested)
 export const TENTATIVE_PENALTY = 3; // winning evidence is rumor/tentative
-export const CONFLICT_PENALTY = 2; // a LIVE cross-account conflictor disagrees on resolved UTC
+export const CONFLICT_PENALTY = 2; // a fresh DIFFERENT-account representative disagrees on resolved UTC (an account never self-conflicts)
 
 /** CORROBORATION points from the count of INDEPENDENT agreeing sources. */
 export function corroborationPoints(independentAgreeingCount) {
@@ -136,12 +136,15 @@ export function band(score) {
 }
 
 // ---------------------------------------------------------------------------
-// Freshness & supersession windows.
+// Freshness window.
 //   fresh(claim) ≡ (now − posted_at ≤ FRESH_WINDOW_DAYS) AND posted_at > last_verified_at
-//   The supersession margin guards a SAME-ACCOUNT self-correction only.
+//   No supersession margin: each account collapses to its single most-recent
+//   kickoff claim (its "representative position"), so an account never conflicts
+//   with itself and a rapid self-correction is treated as a settled position.
+//   The lone-source safeguard is SINGLE_SOURCE_CAP (a lone official → REVIEW),
+//   not a time-based margin.
 // ---------------------------------------------------------------------------
 export const FRESH_WINDOW_DAYS = 7;
-export const SUPERSESSION_MARGIN_HOURS = 48;
 
 // ---------------------------------------------------------------------------
 // HTTP resilience - the flaky gateway.
