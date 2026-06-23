@@ -86,11 +86,15 @@ function nearestWeekday(anchor, targetWeekday) {
  * a year. Falls back to the fixture's scheduled date when nothing is asserted.
  */
 export function localDateFor({ kind, explicitIsoDate, weekday } = {}, anchor) {
+  // Code owns the date. A named weekday wins: a kickoff-time claim is about THIS
+  // match, so the occurrence nearest the scheduled day is the right date even
+  // when the model guessed the wrong week in explicit_iso_date (a live failure
+  // mode the recorded golden did not exhibit).
+  if (WEEKDAYS[weekday]) {
+    return nearestWeekday(anchor, WEEKDAYS[weekday]).toISODate();
+  }
   if (kind === "EXPLICIT_DATE" && explicitIsoDate) {
     return explicitIsoDate;
-  }
-  if (kind === "RELATIVE_WEEKDAY" && WEEKDAYS[weekday]) {
-    return nearestWeekday(anchor, WEEKDAYS[weekday]).toISODate();
   }
   return anchor.toISODate();
 }
